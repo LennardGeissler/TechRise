@@ -16,12 +16,7 @@ body {
   box-sizing: border-box;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
 
@@ -41,7 +36,8 @@ header {
 header img {
   width: 180px;
   height: 80px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 header nav {
   width: 45%;
@@ -84,6 +80,7 @@ header button a {
   z-index: 2;
   width: 50%;
   padding: 80px 64px;
+  letter-spacing: 1px;
 }
 .welcome .welcome-inner .subtitle {
   color: #333;
@@ -143,4 +140,135 @@ header button a {
   line-height: 24px;
 }
 
-/*# sourceMappingURL=style.css.map */
+.kontakt .bg-img2 {
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  height: 620px;
+}
+.kontakt .kontakt-inner {
+  position: absolute;
+  z-index: 4;
+  width: 100%;
+  height: 620px;
+  display: flex;
+  justify-content: space-between;
+  padding: 48px 100px 48px 48px;
+}
+.kontakt .kontakt-inner div {
+  width: 45%;
+  letter-spacing: 1px;
+}
+.kontakt .kontakt-inner div .subtitle {
+  color: #333;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.kontakt .kontakt-inner div h1 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+.kontakt .kontakt-inner div p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+}
+.kontakt .kontakt-inner div form p {
+  font-size: 16px;
+}
+.kontakt .kontakt-inner div form input {
+  width: 500px;
+  height: 48px;
+  margin-bottom: 4px;
+  border: none;
+  border-radius: 8px;
+  color: #333;
+  padding: 12px;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.kontakt .kontakt-inner div form input:focus {
+  border: none;
+}
+.kontakt .kontakt-inner div .kontakt-datenschutz {
+  width: 500px;
+  font-size: 8px;
+  line-height: 12px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.kontakt .kontakt-inner div button {
+  width: 200px;
+  height: 48px;
+  border-radius: 24px;
+  border: none;
+  background-color: #EFBD5B;
+  color: #fff;
+  font-size: 16px;
+}
+.kontakt .kontakt-inner div button:hover {
+  filter: brightness(0.9);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  height: 400px;
+  background-color: #fff;
+  margin-top: 620px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 64px 200px;
+}
+footer div {
+  width: 33.3333333333%;
+}
+footer div img {
+  width: 300px;
+  margin-bottom: 100px;
+}
+footer div .nav-light ul {
+  padding-inline-start: 0;
+}
+footer div .nav-light ul li {
+  list-style: none;
+  height: 48px;
+}
+footer div .nav-light ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+footer div .nav-bold ul {
+  padding-inline-start: 0;
+}
+footer div .nav-bold ul li {
+  list-style: none;
+  height: 64px;
+}
+footer div .nav-bold ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+footer div .social-media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  margin-top: 20px;
+}
+footer div .social-media img {
+  width: 64px;
+  height: 64px;
+}/*# sourceMappingURL=style.css.map */

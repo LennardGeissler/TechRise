@@ -36,12 +36,7 @@ body {
     box-sizing: border-box;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
 }
 
@@ -113,6 +108,7 @@ header {
         z-index: 2;
         width: 50%;
         padding: 80px $large-3;
+        letter-spacing: 1px;
 
         .subtitle {
             color: $text-dark;
@@ -179,4 +175,170 @@ header {
         text-align: center;
         line-height: $medium-3;
       }
+}
+
+.kontakt {
+
+    .bg-img2 {
+        position: absolute;
+        z-index: 3;
+        width: 100%;
+        height: 620px;
+    }
+
+    .kontakt-inner {
+        position: absolute;
+        z-index: 4;
+        width: 100%;
+        height: 620px;
+        display: flex;
+        justify-content: space-between;
+        padding: $large-2 100px $large-2 $large-2;
+
+        div {
+            width: 45%;
+            letter-spacing: 1px;
+
+            .subtitle {
+                color: $text-dark;
+                font-size: $medium-2;
+                font-weight: 500;
+                margin-bottom: $medium-2;
+                
+            }
+    
+            h1 {
+                color: $text-light;
+                font-weight: 600;
+                font-size: $large-3;
+                margin-bottom: $medium-2;
+            }
+    
+            p {
+                color: $text-light;
+                font-size: $medium-1;
+                font-weight: 300;
+                line-height: 28px;
+            }
+
+            form {
+                p {
+                    font-size: $medium-1;
+                }
+
+                input {
+                    width: 500px;
+                    height: $large-2;
+                    margin-bottom: $small-1;
+                    border: none;
+                    border-radius: $small-2;
+                    color: $text-dark;
+                    padding: $small-3;
+                    font-size: $medium-1;
+                    letter-spacing: 1px;
+                }
+
+                input:focus {
+                    border: none;
+                }
+            }
+
+            .kontakt-datenschutz {
+                width: 500px;
+                font-size: $small-2;
+                line-height: $small-3;
+                text-align: justify;
+                margin-bottom: $medium-2;
+            }
+
+            button {
+                width: 200px;
+                height: $large-2;
+                border-radius: $medium-3;
+                border: none;
+                background-color: $tertiary;
+                color: $text-light;
+                font-size: $medium-1;
+            }
+
+            button:hover {
+                filter: brightness(0.9);
+                transition: 0.3s ease-in;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    margin-top: 620px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: $large-3 200px;
+
+    div {
+        width: calc(100% / 3);
+
+        img {
+            width: 300px;
+            margin-bottom: 100px;
+        }
+
+        .nav-light {
+            ul {
+                padding-inline-start: 0;
+
+                li {
+                    list-style: none;
+                    height: $large-2;
+                    
+                    a {
+                        text-decoration: none;
+                        color: $text-dark;
+                        font-size: $medium-2;
+                        font-weight: 300;
+                        letter-spacing: 2px;
+                    }
+                }
+
+            }
+        }
+
+        .nav-bold {
+            ul {
+                padding-inline-start: 0;
+
+                li {
+                    list-style: none;
+                    height: $large-3;
+                    
+                    a {
+                        text-decoration: none;
+                        color: $text-dark;
+                        font-size: $medium-3;
+                        font-weight: 400;
+                        letter-spacing: 2px;
+                    }
+                }
+
+            }
+        }
+
+        .social-media {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 300px;
+            margin-top: $medium-2;
+            
+            img {
+                width: $large-3;
+                height: $large-3;
+            }
+        }
+    }
 }
