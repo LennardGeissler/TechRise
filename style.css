@@ -125,4 +125,22 @@ header button a {
   text-decoration: none;
 }
 
+.goals {
+  margin-top: 648px;
+}
+.goals .companyGoals {
+  color: #166EAD;
+  text-align: center;
+}
+.goals h1 {
+  color: #333;
+  text-align: center;
+  font-size: xxx-large;
+}
+.goals .new {
+  margin-top: 24px;
+  text-align: center;
+  line-height: 24px;
+}
+
 /*# sourceMappingURL=style.css.map */
