@@ -125,20 +125,22 @@ header button a {
   text-decoration: none;
 }
 
-/*# sourceMappingURL=style.css.map */
-
-
-#companyGoals {
+.goals {
+  margin-top: 648px;
+}
+.goals .companyGoals {
   color: #166EAD;
   text-align: center;
 }
-#help {
+.goals h1 {
   color: #333;
   text-align: center;
   font-size: xxx-large;
-  
 }
-#new {
+.goals .new {
   margin-top: 24px;
   text-align: center;
+  line-height: 24px;
 }
+
+/*# sourceMappingURL=style.css.map */
