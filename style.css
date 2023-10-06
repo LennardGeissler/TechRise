@@ -126,3 +126,19 @@ header button a {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+#companyGoals {
+  color: #166EAD;
+  text-align: center;
+}
+#help {
+  color: #333;
+  text-align: center;
+  font-size: xxx-large;
+  
+}
+#new {
+  margin-top: 24px;
+  text-align: center;
+}
