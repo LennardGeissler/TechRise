@@ -15,6 +15,8 @@ $tertiary: #EFBD5B;
 $text-light: #fff;
 $text-dark: #333;
 
+$font: 'Inter', sans-serif;
+$font-2: 'Open Sans', sans-serif;
 
 * {
     margin: 0;
@@ -27,6 +29,11 @@ html {
 
 body {
     background-color: #FAFAFA;
+    margin: 0;
+    padding: 0;
+    font-family: $font;
+    color: $text-dark;
+    box-sizing: border-box;
 }
 
 header {
@@ -35,12 +42,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: $medium-2 $medium-2;
+    padding: $medium-2 $large-1;
     background-color: #fff;
 
     img {
         width: 180px;
-        height: $large-3;
+        height: 80px;
+        object-fit: cover;
     }
 
     nav {
