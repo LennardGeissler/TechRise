@@ -1,6 +1,7 @@
 * {
   margin: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html {
@@ -13,10 +14,16 @@ body {
   padding: 0;
   font-family: "Inter", sans-serif;
   color: #333;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 500;
 }
 
@@ -27,34 +34,50 @@ p {
 header {
   width: 100%;
   height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 20px 32px;
   background-color: #fff;
 }
+
 header img {
   width: 180px;
   height: 80px;
   -o-object-fit: cover;
      object-fit: cover;
 }
+
 header nav {
   width: 45%;
 }
+
 header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+
 header nav ul li {
   list-style: none;
 }
+
 header nav ul li a {
   color: #333;
   text-decoration: none;
   font-size: 20px;
   font-weight: 300;
 }
+
 header button {
   width: 180px;
   height: 48px;
@@ -62,6 +85,7 @@ header button {
   border: none;
   background-color: #EFBD5B;
 }
+
 header button a {
   color: #fff;
   text-decoration: none;
@@ -75,39 +99,51 @@ header button a {
   width: 100%;
   height: 620px;
 }
+
 .welcome .welcome-inner {
   position: absolute;
   z-index: 2;
-  width: 50%;
+  width: 70%;
   padding: 80px 64px;
   letter-spacing: 1px;
 }
+
 .welcome .welcome-inner .subtitle {
   color: #333;
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 20px;
 }
+
 .welcome .welcome-inner h1 {
   color: #fff;
   font-weight: 600;
   font-size: 64px;
   margin-bottom: 20px;
 }
+
 .welcome .welcome-inner p {
   color: #fff;
   font-size: 16px;
   font-weight: 300;
   line-height: 28px;
 }
+
 .welcome .welcome-inner .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 45%;
   padding: 0;
   margin-top: 48px;
 }
+
 .welcome .welcome-inner .links button {
   width: 200px;
   height: 48px;
@@ -115,6 +151,7 @@ header button a {
   border: none;
   background-color: #EFBD5B;
 }
+
 .welcome .welcome-inner .links a {
   color: #fff;
   font-size: 16px;
@@ -124,20 +161,71 @@ header button a {
 
 .goals {
   margin-top: 648px;
+  padding: 0 80px;
 }
+
 .goals .companyGoals {
   color: #166EAD;
   text-align: center;
 }
+
 .goals h1 {
   color: #333;
   text-align: center;
   font-size: xxx-large;
 }
+
 .goals .new {
   margin-top: 24px;
   text-align: center;
   line-height: 24px;
+}
+
+.goals .leistungen-home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 48px 0;
+}
+
+.goals .leistungen-home button {
+  width: 300px;
+  height: 350px;
+  border-radius: 48px;
+  background-color: transparent;
+  border: 1px solid rgba(51, 51, 51, 0.6);
+}
+
+.goals .leistungen-home button img {
+  width: 30%;
+  margin-bottom: 24px;
+}
+
+.goals .leistungen-home button p {
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.goals .produkte-und-leistungen {
+  width: 100%;
+  height: 100px;
+  border-radius: 48px;
+  background-color: transparent;
+  border: 1px solid rgba(51, 51, 51, 0.6);
+  margin-bottom: 48px;
+}
+
+.goals .produkte-und-leistungen p {
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 2px;
 }
 
 .kontakt .bg-img2 {
@@ -146,42 +234,54 @@ header button a {
   width: 100%;
   height: 620px;
 }
+
 .kontakt .kontakt-inner {
   position: absolute;
   z-index: 4;
   width: 100%;
   height: 620px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  padding: 48px 100px 48px 48px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 48px 0 48px 48px;
 }
+
 .kontakt .kontakt-inner div {
   width: 45%;
   letter-spacing: 1px;
 }
+
 .kontakt .kontakt-inner div .subtitle {
   color: #333;
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 20px;
 }
+
 .kontakt .kontakt-inner div h1 {
   color: #fff;
   font-weight: 600;
-  font-size: 64px;
+  font-size: 54px;
   margin-bottom: 20px;
 }
+
 .kontakt .kontakt-inner div p {
   color: #fff;
   font-size: 16px;
   font-weight: 300;
-  line-height: 28px;
+  line-height: 24px;
+  text-align: justify;
 }
+
 .kontakt .kontakt-inner div form p {
   font-size: 16px;
 }
+
 .kontakt .kontakt-inner div form input {
-  width: 500px;
+  width: 80%;
   height: 48px;
   margin-bottom: 4px;
   border: none;
@@ -191,9 +291,11 @@ header button a {
   font-size: 16px;
   letter-spacing: 1px;
 }
+
 .kontakt .kontakt-inner div form input:focus {
   border: none;
 }
+
 .kontakt .kontakt-inner div .kontakt-datenschutz {
   width: 500px;
   font-size: 8px;
@@ -201,6 +303,7 @@ header button a {
   text-align: justify;
   margin-bottom: 20px;
 }
+
 .kontakt .kontakt-inner div button {
   width: 200px;
   height: 48px;
@@ -210,8 +313,11 @@ header button a {
   color: #fff;
   font-size: 16px;
 }
+
 .kontakt .kontakt-inner div button:hover {
-  filter: brightness(0.9);
+  -webkit-filter: brightness(0.9);
+          filter: brightness(0.9);
+  -webkit-transition: 0.3s ease-in;
   transition: 0.3s ease-in;
   cursor: pointer;
 }
@@ -221,25 +327,37 @@ footer {
   height: 400px;
   background-color: #fff;
   margin-top: 620px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 64px 200px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 64px 100px;
 }
+
 footer div {
-  width: 33.3333333333%;
+  width: calc(100% / 3);
 }
+
 footer div img {
   width: 300px;
   margin-bottom: 100px;
 }
+
 footer div .nav-light ul {
-  padding-inline-start: 0;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
 }
+
 footer div .nav-light ul li {
   list-style: none;
   height: 48px;
 }
+
 footer div .nav-light ul li a {
   text-decoration: none;
   color: #333;
@@ -247,13 +365,17 @@ footer div .nav-light ul li a {
   font-weight: 300;
   letter-spacing: 2px;
 }
+
 footer div .nav-bold ul {
-  padding-inline-start: 0;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
 }
+
 footer div .nav-bold ul li {
   list-style: none;
   height: 64px;
 }
+
 footer div .nav-bold ul li a {
   text-decoration: none;
   color: #333;
@@ -261,14 +383,23 @@ footer div .nav-bold ul li a {
   font-weight: 400;
   letter-spacing: 2px;
 }
+
 footer div .social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 300px;
   margin-top: 20px;
 }
+
 footer div .social-media img {
   width: 64px;
   height: 64px;
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */

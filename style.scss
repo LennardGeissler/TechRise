@@ -36,7 +36,12 @@ body {
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: 500;
 }
 
@@ -106,7 +111,7 @@ header {
     .welcome-inner {
         position: absolute;
         z-index: 2;
-        width: 50%;
+        width: 70%;
         padding: 80px $large-3;
         letter-spacing: 1px;
 
@@ -159,26 +164,68 @@ header {
 
 .goals {
     margin-top: 648px;
+    padding: 0 80px;
 
     .companyGoals {
         color: #166EAD;
         text-align: center;
-      }
-      h1 {
+    }
+
+    h1 {
         color: #333;
         text-align: center;
         font-size: xxx-large;
-        
-      }
-      .new {
+    }
+
+    .new {
         margin-top: 24px;
         text-align: center;
         line-height: $medium-3;
-      }
+    }
+
+    .leistungen-home {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: $large-2 0;
+
+        button {
+            width: 300px;
+            height: 350px;
+            border-radius: $large-2;
+            background-color: transparent;
+            border: 1px solid rgba($color: #333, $alpha: 0.6);
+
+            img {
+                width: 30%;
+                margin-bottom: $medium-3;
+            }
+
+            p {
+                font-size: $medium-2;
+                font-weight: 300;
+                letter-spacing: 2px;
+            }
+        }
+    }
+
+    .produkte-und-leistungen {
+        width: 100%;
+        height: 100px;
+        border-radius: $large-2;
+        background-color: transparent;
+        border: 1px solid rgba($color: #333, $alpha: 0.6);
+        margin-bottom: $large-2;
+
+        p {
+            font-size: $medium-2;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+    }
 }
 
 .kontakt {
-
     .bg-img2 {
         position: absolute;
         z-index: 3;
@@ -193,7 +240,7 @@ header {
         height: 620px;
         display: flex;
         justify-content: space-between;
-        padding: $large-2 100px $large-2 $large-2;
+        padding: $large-2 0 $large-2 $large-2;
 
         div {
             width: 45%;
@@ -204,21 +251,22 @@ header {
                 font-size: $medium-2;
                 font-weight: 500;
                 margin-bottom: $medium-2;
-                
+
             }
-    
+
             h1 {
                 color: $text-light;
                 font-weight: 600;
-                font-size: $large-3;
+                font-size: 54px;
                 margin-bottom: $medium-2;
             }
-    
+
             p {
                 color: $text-light;
                 font-size: $medium-1;
                 font-weight: 300;
-                line-height: 28px;
+                line-height: 24px;
+                text-align: justify;
             }
 
             form {
@@ -227,7 +275,7 @@ header {
                 }
 
                 input {
-                    width: 500px;
+                    width: 80%;
                     height: $large-2;
                     margin-bottom: $small-1;
                     border: none;
@@ -278,7 +326,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: $large-3 200px;
+    padding: $large-3 100px;
 
     div {
         width: calc(100% / 3);
@@ -295,7 +343,7 @@ footer {
                 li {
                     list-style: none;
                     height: $large-2;
-                    
+
                     a {
                         text-decoration: none;
                         color: $text-dark;
@@ -315,7 +363,7 @@ footer {
                 li {
                     list-style: none;
                     height: $large-3;
-                    
+
                     a {
                         text-decoration: none;
                         color: $text-dark;
@@ -334,7 +382,7 @@ footer {
             align-items: center;
             width: 300px;
             margin-top: $medium-2;
-            
+
             img {
                 width: $large-3;
                 height: $large-3;
