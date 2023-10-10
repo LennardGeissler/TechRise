@@ -65,7 +65,7 @@ header {
     }
 
     nav {
-        width: 45%;
+        width: 50%;
 
         ul {
             display: flex;
@@ -105,13 +105,13 @@ header {
         position: absolute;
         z-index: 1;
         width: 100%;
-        height: 620px;
+        height: 580px;
     }
 
     .welcome-inner {
         position: absolute;
         z-index: 2;
-        width: 70%;
+        width: 55%;
         padding: $large-3;
         letter-spacing: 1px;
 
@@ -125,7 +125,7 @@ header {
         h1 {
             color: $text-light;
             font-weight: 600;
-            font-size: $large-3;
+            font-size: $large-2;
             margin-bottom: $medium-2;
         }
 
@@ -140,7 +140,7 @@ header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            width: 45%;
+            width: 60%;
             padding: 0;
             margin-top: $large-2;
 
@@ -157,6 +157,7 @@ header {
                 font-size: $medium-1;
                 font-weight: 300;
                 text-decoration: none;
+                letter-spacing: 1px;
             }
         }
     }
@@ -164,35 +165,41 @@ header {
 
 .goals {
     margin-top: 648px;
-    padding: 0 80px;
+    padding: 0 120px;
 
     .companyGoals {
         color: #166EAD;
         text-align: center;
+        font-size: $medium-1;
+        letter-spacing: 1px;
     }
 
     h1 {
         text-align: center;
-        font-size: $large-2;
+        font-size: $large-1;
+        letter-spacing: 1px;
+        margin: $small-3 0;
     }
 
     .new {
         margin-top: 24px;
         text-align: center;
         line-height: $medium-3;
+        font-size: $medium-1;
+        letter-spacing: 1px;
     }
 
     .leistungen-home {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: $large-2 0;
+        padding: $large-3 0;
 
         button {
-            width: 300px;
-            height: 350px;
+            width: 280px;
+            height: 300px;
             border-radius: $large-2;
-            background-color: transparent;
+            background-color: #fafafa;
             border: 1px solid rgba($color: #333, $alpha: 0.6);
 
             img {
@@ -206,20 +213,41 @@ header {
                 letter-spacing: 2px;
             }
         }
+
+        button:hover {
+            filter: brightness(0.9);
+
+            p {
+                font-size: 21px;
+                font-weight: 500;
+                text-shadow: 4px 4px 12px 12px;
+                transition: 0.3s ease;
+            }
+        }
     }
 
     .produkte-und-leistungen {
         width: 100%;
-        height: 100px;
+        height: 80px;
         border-radius: $large-2;
-        background-color: transparent;
+        background-color: #fafafa;
         border: 1px solid rgba($color: #333, $alpha: 0.6);
-        margin-bottom: $large-2;
 
         p {
             font-size: $medium-2;
             font-weight: 300;
             letter-spacing: 2px;
+        }
+
+        &:hover {
+            filter: brightness(0.9);
+
+            p {
+                font-size: 21px;
+                font-weight: 500;
+                text-shadow: 4px 4px 12px 12px;
+                transition: 0.3s ease;
+            }
         }
     }
 }
@@ -231,6 +259,7 @@ header {
         color: #166EAD;
         text-align: center;
         font-size: $medium-2;
+        letter-spacing: 1px;
     }
 
     .subtitle-2 {
@@ -244,21 +273,49 @@ header {
     h1 {
         color: #333;
         text-align: center;
-        font-size: $large-2;
+        font-size: $large-1;
+        letter-spacing: 1px;
+        margin: $small-3 0;
     }
 
     .bg-img-2 {
         margin: $large-1 0;
     }
 
-    .description {
-        margin-top: 24px;
-        text-align: center;
-        line-height: $large-1;
-        font-size: $medium-2;
-        letter-spacing: 1px;
-        padding: 0 80px;
-        margin-bottom: 24px;
+    .carousel {
+        display: flex;
+
+        article {
+            margin-top: 24px;
+            padding: 0 100px;
+            width: 100%;
+            height: 200px;
+            display: none;
+
+            .description {
+                text-align: center;
+                line-height: $medium-3;
+                font-size: $medium-1;
+                margin-bottom: 24px;
+                letter-spacing: 1px;
+            }
+        }
+
+        .fade {
+            animation-name: fade;
+            animation-duration: 1s;
+        }
+
+        @keyframes fade {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
     }
 
     nav {
@@ -285,7 +342,7 @@ header {
             }
         }
 
-        p {
+        div {
             text-align: center;
             width: $large-2;
             margin: 0;
@@ -389,7 +446,7 @@ header {
 
 footer {
     width: 100%;
-    height: 400px;
+    height: 360px;
     background-color: #fff;
     margin-top: 660px;
     display: flex;
@@ -402,7 +459,7 @@ footer {
 
         img {
             width: 300px;
-            margin-bottom: 100px;
+            margin-bottom: $large-3;
         }
 
         .nav-light {
@@ -416,7 +473,7 @@ footer {
                     a {
                         text-decoration: none;
                         color: $text-dark;
-                        font-size: $medium-2;
+                        font-size: $medium-1;
                         font-weight: 300;
                         letter-spacing: 2px;
                     }
@@ -436,7 +493,7 @@ footer {
                     a {
                         text-decoration: none;
                         color: $text-dark;
-                        font-size: $medium-3;
+                        font-size: $medium-2;
                         font-weight: 400;
                         letter-spacing: 2px;
                     }

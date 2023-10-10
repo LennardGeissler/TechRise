@@ -55,7 +55,7 @@ header img {
 }
 
 header nav {
-  width: 45%;
+  width: 50%;
 }
 
 header nav ul {
@@ -97,13 +97,13 @@ header button a {
   position: absolute;
   z-index: 1;
   width: 100%;
-  height: 620px;
+  height: 580px;
 }
 
 .welcome .welcome-inner {
   position: absolute;
   z-index: 2;
-  width: 70%;
+  width: 55%;
   padding: 64px;
   letter-spacing: 1px;
 }
@@ -118,7 +118,7 @@ header button a {
 .welcome .welcome-inner h1 {
   color: #fff;
   font-weight: 600;
-  font-size: 64px;
+  font-size: 48px;
   margin-bottom: 20px;
 }
 
@@ -139,7 +139,7 @@ header button a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 45%;
+  width: 60%;
   padding: 0;
   margin-top: 48px;
 }
@@ -157,27 +157,34 @@ header button a {
   font-size: 16px;
   font-weight: 300;
   text-decoration: none;
+  letter-spacing: 1px;
 }
 
 .goals {
   margin-top: 648px;
-  padding: 0 80px;
+  padding: 0 120px;
 }
 
 .goals .companyGoals {
   color: #166EAD;
   text-align: center;
+  font-size: 16px;
+  letter-spacing: 1px;
 }
 
 .goals h1 {
   text-align: center;
-  font-size: 48px;
+  font-size: 32px;
+  letter-spacing: 1px;
+  margin: 12px 0;
 }
 
 .goals .new {
   margin-top: 24px;
   text-align: center;
   line-height: 24px;
+  font-size: 16px;
+  letter-spacing: 1px;
 }
 
 .goals .leistungen-home {
@@ -190,14 +197,14 @@ header button a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 48px 0;
+  padding: 64px 0;
 }
 
 .goals .leistungen-home button {
-  width: 300px;
-  height: 350px;
+  width: 280px;
+  height: 300px;
   border-radius: 48px;
-  background-color: transparent;
+  background-color: #fafafa;
   border: 1px solid rgba(51, 51, 51, 0.6);
 }
 
@@ -212,19 +219,44 @@ header button a {
   letter-spacing: 2px;
 }
 
+.goals .leistungen-home button:hover {
+  -webkit-filter: brightness(0.9);
+          filter: brightness(0.9);
+}
+
+.goals .leistungen-home button:hover p {
+  font-size: 21px;
+  font-weight: 500;
+  text-shadow: 4px 4px 12px 12px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
 .goals .produkte-und-leistungen {
   width: 100%;
-  height: 100px;
+  height: 80px;
   border-radius: 48px;
-  background-color: transparent;
+  background-color: #fafafa;
   border: 1px solid rgba(51, 51, 51, 0.6);
-  margin-bottom: 48px;
 }
 
 .goals .produkte-und-leistungen p {
   font-size: 20px;
   font-weight: 300;
   letter-spacing: 2px;
+}
+
+.goals .produkte-und-leistungen:hover {
+  -webkit-filter: brightness(0.9);
+          filter: brightness(0.9);
+}
+
+.goals .produkte-und-leistungen:hover p {
+  font-size: 21px;
+  font-weight: 500;
+  text-shadow: 4px 4px 12px 12px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .techrise {
@@ -235,6 +267,7 @@ header button a {
   color: #166EAD;
   text-align: center;
   font-size: 20px;
+  letter-spacing: 1px;
 }
 
 .techrise .subtitle-2 {
@@ -248,21 +281,60 @@ header button a {
 .techrise h1 {
   color: #333;
   text-align: center;
-  font-size: 48px;
+  font-size: 32px;
+  letter-spacing: 1px;
+  margin: 12px 0;
 }
 
 .techrise .bg-img-2 {
   margin: 32px 0;
 }
 
-.techrise .description {
+.techrise .carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.techrise .carousel article {
   margin-top: 24px;
+  padding: 0 100px;
+  width: 100%;
+  height: 200px;
+  display: none;
+}
+
+.techrise .carousel article .description {
   text-align: center;
-  line-height: 32px;
-  font-size: 20px;
-  letter-spacing: 1px;
-  padding: 0 80px;
+  line-height: 24px;
+  font-size: 16px;
   margin-bottom: 24px;
+  letter-spacing: 1px;
+}
+
+.techrise .carousel .fade {
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .techrise nav {
@@ -298,7 +370,7 @@ header button a {
   height: 32px;
 }
 
-.techrise nav p {
+.techrise nav div {
   text-align: center;
   width: 48px;
   margin: 0;
@@ -401,7 +473,7 @@ header button a {
 
 footer {
   width: 100%;
-  height: 400px;
+  height: 360px;
   background-color: #fff;
   margin-top: 660px;
   display: -webkit-box;
@@ -422,7 +494,7 @@ footer div {
 
 footer div img {
   width: 300px;
-  margin-bottom: 100px;
+  margin-bottom: 64px;
 }
 
 footer div .nav-light ul {
@@ -438,7 +510,7 @@ footer div .nav-light ul li {
 footer div .nav-light ul li a {
   text-decoration: none;
   color: #333;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 300;
   letter-spacing: 2px;
 }
@@ -456,7 +528,7 @@ footer div .nav-bold ul li {
 footer div .nav-bold ul li a {
   text-decoration: none;
   color: #333;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   letter-spacing: 2px;
 }
