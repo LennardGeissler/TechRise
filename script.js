@@ -1,0 +1,7 @@
+const slideLeft = () => {
+
+}
+
+const slideRight = () => {
+    
+}

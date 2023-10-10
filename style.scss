@@ -112,7 +112,7 @@ header {
         position: absolute;
         z-index: 2;
         width: 70%;
-        padding: 80px $large-3;
+        padding: $large-3;
         letter-spacing: 1px;
 
         .subtitle {
@@ -172,9 +172,8 @@ header {
     }
 
     h1 {
-        color: #333;
         text-align: center;
-        font-size: xxx-large;
+        font-size: $large-2;
     }
 
     .new {
@@ -221,6 +220,76 @@ header {
             font-size: $medium-2;
             font-weight: 300;
             letter-spacing: 2px;
+        }
+    }
+}
+
+.techrise {
+    margin: $large-3 0;
+
+    .subtitle-1 {
+        color: #166EAD;
+        text-align: center;
+        font-size: $medium-2;
+    }
+
+    .subtitle-2 {
+        color: #333;
+        text-align: center;
+        font-size: $medium-2;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+
+    h1 {
+        color: #333;
+        text-align: center;
+        font-size: $large-2;
+    }
+
+    .bg-img-2 {
+        margin: $large-1 0;
+    }
+
+    .description {
+        margin-top: 24px;
+        text-align: center;
+        line-height: $large-1;
+        font-size: $medium-2;
+        letter-spacing: 1px;
+        padding: 0 80px;
+        margin-bottom: 24px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: $medium-2;
+
+        button {
+            width: $large-2;
+            height: $large-2;
+            border: none;
+            background-color: transparent;
+            object-fit: cover;
+            cursor: pointer;
+
+            &:hover {
+                filter: brightness(0.9);
+            }
+
+            img {
+                width: $large-1;
+                height: $large-1;
+            }
+        }
+
+        p {
+            text-align: center;
+            width: $large-2;
+            margin: 0;
+            padding: 0;
         }
     }
 }
@@ -292,7 +361,7 @@ header {
             }
 
             .kontakt-datenschutz {
-                width: 500px;
+                width: 80%;
                 font-size: $small-2;
                 line-height: $small-3;
                 text-align: justify;
@@ -322,7 +391,7 @@ footer {
     width: 100%;
     height: 400px;
     background-color: #fff;
-    margin-top: 620px;
+    margin-top: 660px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
