@@ -112,6 +112,7 @@ header {
         position: absolute;
         z-index: 2;
         width: 55%;
+        max-width: 770px;
         padding: $large-3;
         letter-spacing: 1px;
 
@@ -488,6 +489,23 @@ header {
     }
 }
 
+.kontaktformular {
+    margin-top: 648px;
+    color: #333;
+
+    .bg-img-3 {
+        background-color: #FAFAFA;
+    }
+
+    h1, p {
+        color: #333 !important;
+    }
+
+    .subtitle {
+        color: $primary !important;
+    }
+}
+
 footer {
     width: 100%;
     height: 360px;
@@ -559,4 +577,8 @@ footer {
             }
         }
     }
+}
+
+.kontakt-footer {
+    margin-top: 1268px;
 }

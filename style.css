@@ -104,6 +104,7 @@ header button a {
   position: absolute;
   z-index: 2;
   width: 55%;
+  max-width: 770px;
   padding: 64px;
   letter-spacing: 1px;
 }
@@ -523,6 +524,23 @@ header button a {
   cursor: pointer;
 }
 
+.kontaktformular {
+  margin-top: 648px;
+  color: #333;
+}
+
+.kontaktformular .bg-img-3 {
+  background-color: #FAFAFA;
+}
+
+.kontaktformular h1, .kontaktformular p {
+  color: #333 !important;
+}
+
+.kontaktformular .subtitle {
+  color: #55A1E1 !important;
+}
+
 footer {
   width: 100%;
   height: 360px;
@@ -602,5 +620,9 @@ footer div .social-media {
 footer div .social-media img {
   width: 64px;
   height: 64px;
+}
+
+.kontakt-footer {
+  margin-top: 1268px;
 }
 /*# sourceMappingURL=style.css.map */
