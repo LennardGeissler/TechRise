@@ -250,6 +250,50 @@ header {
             }
         }
     }
+
+    .mitarbeiter-1 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: $large-2;
+
+        img {
+            margin-bottom: $medium-1;
+            width: 280px;
+            height: 320px;
+        }
+
+        h2 {
+            font-size: $medium-3;
+            margin-bottom: $small-1;
+        }
+
+        p {
+            font-size: $medium-1;
+        }
+    }
+
+    .mitarbeiter-2 {
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+        margin-top: $large-1;
+        margin-bottom: $large-3;
+
+        img {
+            margin-bottom: $medium-1;
+            width: 280px;
+            height: 320px;
+        }
+
+        h2 {
+            font-size: $medium-3;
+            margin-bottom: $small-1;
+        }
+
+        p {
+            font-size: $medium-1;
+        }
+    }
 }
 
 .techrise {

@@ -259,6 +259,58 @@ header button a {
   transition: 0.3s ease;
 }
 
+.goals .mitarbeiter-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 48px;
+}
+
+.goals .mitarbeiter-1 img {
+  margin-bottom: 16px;
+  width: 280px;
+  height: 320px;
+}
+
+.goals .mitarbeiter-1 h2 {
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+
+.goals .mitarbeiter-1 p {
+  font-size: 16px;
+}
+
+.goals .mitarbeiter-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 80px;
+  margin-top: 32px;
+  margin-bottom: 64px;
+}
+
+.goals .mitarbeiter-2 img {
+  margin-bottom: 16px;
+  width: 280px;
+  height: 320px;
+}
+
+.goals .mitarbeiter-2 h2 {
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+
+.goals .mitarbeiter-2 p {
+  font-size: 16px;
+}
+
 .techrise {
   margin: 64px 0;
 }
