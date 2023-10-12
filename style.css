@@ -116,6 +116,10 @@ header button a {
   margin-bottom: 20px;
 }
 
+.welcome .welcome-inner .welcome-inner-text {
+  height: 105px;
+}
+
 .welcome .welcome-inner h1 {
   color: #fff;
   font-weight: 600;
@@ -539,6 +543,65 @@ header button a {
 
 .kontaktformular .subtitle {
   color: #55A1E1 !important;
+}
+
+.referenzen {
+  margin-top: 648px;
+  padding: 0 120px;
+}
+
+.referenzen .rezensionen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.referenzen .rezensionen div {
+  width: 320px;
+  height: 300px;
+  border-radius: 48px;
+  border: 1px solid rgba(51, 51, 51, 0.6);
+  background-color: #fff;
+  padding: 16px;
+  text-align: center;
+}
+
+.referenzen .rezensionen div .logos {
+  height: 64px;
+  width: 240px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin: 0 auto 12px auto;
+}
+
+.referenzen .rezensionen div .stars {
+  height: 24px;
+  margin: 0 auto 16px auto;
+}
+
+.referenzen .rezensionen div p {
+  font-size: 16px;
+  color: #333;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+
+.referenzen .rezensionen .rezension-mitte {
+  height: 340px;
+}
+
+.referenzen .more {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: #55A1E1;
+  margin-top: 32px;
 }
 
 footer {

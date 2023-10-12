@@ -123,6 +123,10 @@ header {
             margin-bottom: $medium-2;
         }
 
+        .welcome-inner-text {
+            height: 105px;
+        }
+
         h1 {
             color: $text-light;
             font-weight: 600;
@@ -503,6 +507,60 @@ header {
 
     .subtitle {
         color: $primary !important;
+    }
+}
+
+.referenzen {
+    margin-top: 648px;
+    padding: 0 120px;
+    
+    .rezensionen {
+        display: flex;
+        justify-content: space-between;
+
+        div {
+            width: 320px;
+            height: 300px;
+            border-radius: $large-2;
+            border: 1px solid rgba($color: #333, $alpha: 0.6);
+            background-color: #fff;
+            padding: $medium-1;
+            text-align: center;
+
+            .logos {
+                height: $large-3;
+                width: 240px;
+                align-self: center;
+                margin: 0 auto $small-3 auto;
+            }
+
+            .stars {
+                height: $medium-3;
+                margin: 0 auto $medium-1 auto;
+            }
+
+            p {
+                font-size: $medium-1;
+                color: $text-dark;
+                line-height: $medium-3;
+                letter-spacing: 1px;
+            }
+
+        }
+
+        .rezension-mitte {
+            height: 340px;
+        }
+    }
+
+    .more {
+        text-align: center;
+        font-size: $medium-1;
+        font-weight: 500;
+        line-height: $medium-3;
+        letter-spacing: 1px;
+        color: $primary;
+        margin-top: $large-1;
     }
 }
 
