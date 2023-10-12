@@ -192,7 +192,7 @@ header button a {
   letter-spacing: 1px;
 }
 
-.goals .leistungen-home {
+.goals .services-home {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -205,7 +205,7 @@ header button a {
   padding: 64px 0;
 }
 
-.goals .leistungen-home button {
+.goals .services-home button {
   width: 280px;
   height: 300px;
   border-radius: 48px;
@@ -213,23 +213,23 @@ header button a {
   border: 1px solid rgba(51, 51, 51, 0.6);
 }
 
-.goals .leistungen-home button img {
+.goals .services-home button img {
   width: 30%;
   margin-bottom: 24px;
 }
 
-.goals .leistungen-home button p {
+.goals .services-home button p {
   font-size: 20px;
   font-weight: 300;
   letter-spacing: 2px;
 }
 
-.goals .leistungen-home button:hover {
+.goals .services-home button:hover {
   -webkit-filter: brightness(0.9);
           filter: brightness(0.9);
 }
 
-.goals .leistungen-home button:hover p {
+.goals .services-home button:hover p {
   font-size: 21px;
   font-weight: 500;
   text-shadow: 4px 4px 12px 12px;
@@ -237,7 +237,7 @@ header button a {
   transition: 0.3s ease;
 }
 
-.goals .produkte-und-leistungen {
+.goals .products-and-services {
   width: 100%;
   height: 80px;
   border-radius: 48px;
@@ -245,18 +245,18 @@ header button a {
   border: 1px solid rgba(51, 51, 51, 0.6);
 }
 
-.goals .produkte-und-leistungen p {
+.goals .products-and-services p {
   font-size: 20px;
   font-weight: 300;
   letter-spacing: 2px;
 }
 
-.goals .produkte-und-leistungen:hover {
+.goals .products-and-services:hover {
   -webkit-filter: brightness(0.9);
           filter: brightness(0.9);
 }
 
-.goals .produkte-und-leistungen:hover p {
+.goals .products-and-services:hover p {
   font-size: 21px;
   font-weight: 500;
   text-shadow: 4px 4px 12px 12px;
@@ -434,14 +434,14 @@ header button a {
   padding: 0;
 }
 
-.kontakt .bg-img2 {
+.contact .bg-img2 {
   position: absolute;
   z-index: 3;
   width: 100%;
   height: 620px;
 }
 
-.kontakt .kontakt-inner {
+.contact .contact-inner {
   position: absolute;
   z-index: 4;
   width: 100%;
@@ -455,26 +455,26 @@ header button a {
   padding: 48px 0 48px 48px;
 }
 
-.kontakt .kontakt-inner div {
+.contact .contact-inner div {
   width: 45%;
   letter-spacing: 1px;
 }
 
-.kontakt .kontakt-inner div .subtitle {
+.contact .contact-inner div .subtitle {
   color: #333;
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 20px;
 }
 
-.kontakt .kontakt-inner div h1 {
+.contact .contact-inner div h1 {
   color: #fff;
   font-weight: 600;
   font-size: 54px;
   margin-bottom: 20px;
 }
 
-.kontakt .kontakt-inner div p {
+.contact .contact-inner div p {
   color: #fff;
   font-size: 16px;
   font-weight: 300;
@@ -482,11 +482,11 @@ header button a {
   text-align: justify;
 }
 
-.kontakt .kontakt-inner div form p {
+.contact .contact-inner div form p {
   font-size: 16px;
 }
 
-.kontakt .kontakt-inner div form input {
+.contact .contact-inner div form input {
   width: 80%;
   height: 48px;
   margin-bottom: 4px;
@@ -498,11 +498,11 @@ header button a {
   letter-spacing: 1px;
 }
 
-.kontakt .kontakt-inner div form input:focus {
+.contact .contact-inner div form input:focus {
   border: none;
 }
 
-.kontakt .kontakt-inner div .kontakt-datenschutz {
+.contact .contact-inner div .contact-privacy {
   width: 80%;
   font-size: 8px;
   line-height: 12px;
@@ -510,7 +510,7 @@ header button a {
   margin-bottom: 20px;
 }
 
-.kontakt .kontakt-inner div button {
+.contact .contact-inner div button {
   width: 200px;
   height: 48px;
   border-radius: 24px;
@@ -520,7 +520,7 @@ header button a {
   font-size: 16px;
 }
 
-.kontakt .kontakt-inner div button:hover {
+.contact .contact-inner div button:hover {
   -webkit-filter: brightness(0.9);
           filter: brightness(0.9);
   -webkit-transition: 0.3s ease-in;
@@ -528,29 +528,29 @@ header button a {
   cursor: pointer;
 }
 
-.kontaktformular {
+.contact-form {
   margin-top: 648px;
   color: #333;
 }
 
-.kontaktformular .bg-img-3 {
+.contact-form .bg-img-3 {
   background-color: #FAFAFA;
 }
 
-.kontaktformular h1, .kontaktformular p {
+.contact-form h1, .contact-form p {
   color: #333 !important;
 }
 
-.kontaktformular .subtitle {
+.contact-form .subtitle {
   color: #55A1E1 !important;
 }
 
-.referenzen {
+.references {
   margin-top: 648px;
   padding: 0 120px;
 }
 
-.referenzen .rezensionen {
+.references .reviews {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -559,7 +559,7 @@ header button a {
           justify-content: space-between;
 }
 
-.referenzen .rezensionen div {
+.references .reviews div {
   width: 320px;
   height: 300px;
   border-radius: 48px;
@@ -569,7 +569,7 @@ header button a {
   text-align: center;
 }
 
-.referenzen .rezensionen div .logos {
+.references .reviews div .logos {
   height: 64px;
   width: 240px;
   -ms-flex-item-align: center;
@@ -578,23 +578,23 @@ header button a {
   margin: 0 auto 12px auto;
 }
 
-.referenzen .rezensionen div .stars {
+.references .reviews div .stars {
   height: 24px;
   margin: 0 auto 16px auto;
 }
 
-.referenzen .rezensionen div p {
+.references .reviews div p {
   font-size: 16px;
   color: #333;
   line-height: 24px;
   letter-spacing: 1px;
 }
 
-.referenzen .rezensionen .rezension-mitte {
+.references .reviews .review-center {
   height: 340px;
 }
 
-.referenzen .more {
+.references .more {
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -685,7 +685,7 @@ footer div .social-media img {
   height: 64px;
 }
 
-.kontakt-footer {
+.contact-footer {
   margin-top: 1268px;
 }
 /*# sourceMappingURL=style.css.map */
