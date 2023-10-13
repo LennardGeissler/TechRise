@@ -501,7 +501,8 @@ header {
         background-color: #FAFAFA;
     }
 
-    h1, p {
+    h1,
+    p {
         color: #333 !important;
     }
 
@@ -513,7 +514,7 @@ header {
 .references {
     margin-top: 648px;
     padding: 0 120px;
-    
+
     .reviews {
         display: flex;
         justify-content: space-between;
@@ -564,11 +565,52 @@ header {
     }
 }
 
+.services {
+    margin-top: 648px;
+    padding: 0 180px;
+
+
+    .service {
+        letter-spacing: 1px;
+        margin-bottom: 100px;
+
+        .subtitle {
+            color: #166EAD;
+            font-size: $medium-1;
+            text-align: center !important;
+        }
+
+        h1 {
+            font-size: $large-1;
+            margin: $small-3 0;
+            text-align: center;
+        }
+
+        p {
+            margin-top: 24px;
+            line-height: $medium-3;
+            font-size: $medium-1;
+            text-align: justify;
+        }
+
+        ul {
+            li {
+                margin-bottom: $small-1;
+                font-size: $medium-1;
+            }
+        }
+    }
+}
+
+.service:last-child {
+    margin-bottom: $large-3;
+}
+
 footer {
     width: 100%;
     height: 360px;
     background-color: #fff;
-    margin-top: 660px;
+    margin-top: 684px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;

@@ -264,7 +264,7 @@ header button a {
   transition: 0.3s ease;
 }
 
-.goals .mitarbeiter-1 {
+.goals .workers-1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -274,22 +274,22 @@ header button a {
   margin-top: 48px;
 }
 
-.goals .mitarbeiter-1 img {
+.goals .workers-1 img {
   margin-bottom: 16px;
   width: 280px;
   height: 320px;
 }
 
-.goals .mitarbeiter-1 h2 {
+.goals .workers-1 h2 {
   font-size: 24px;
   margin-bottom: 4px;
 }
 
-.goals .mitarbeiter-1 p {
+.goals .workers-1 p {
   font-size: 16px;
 }
 
-.goals .mitarbeiter-2 {
+.goals .workers-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -301,18 +301,18 @@ header button a {
   margin-bottom: 64px;
 }
 
-.goals .mitarbeiter-2 img {
+.goals .workers-2 img {
   margin-bottom: 16px;
   width: 280px;
   height: 320px;
 }
 
-.goals .mitarbeiter-2 h2 {
+.goals .workers-2 h2 {
   font-size: 24px;
   margin-bottom: 4px;
 }
 
-.goals .mitarbeiter-2 p {
+.goals .workers-2 p {
   font-size: 16px;
 }
 
@@ -537,7 +537,8 @@ header button a {
   background-color: #FAFAFA;
 }
 
-.contact-form h1, .contact-form p {
+.contact-form h1,
+.contact-form p {
   color: #333 !important;
 }
 
@@ -604,11 +605,49 @@ header button a {
   margin-top: 32px;
 }
 
+.services {
+  margin-top: 648px;
+  padding: 0 180px;
+}
+
+.services .service {
+  letter-spacing: 1px;
+  margin-bottom: 100px;
+}
+
+.services .service .subtitle {
+  color: #166EAD;
+  font-size: 16px;
+  text-align: center !important;
+}
+
+.services .service h1 {
+  font-size: 32px;
+  margin: 12px 0;
+  text-align: center;
+}
+
+.services .service p {
+  margin-top: 24px;
+  line-height: 24px;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.services .service ul li {
+  margin-bottom: 4px;
+  font-size: 16px;
+}
+
+.service:last-child {
+  margin-bottom: 64px;
+}
+
 footer {
   width: 100%;
   height: 360px;
   background-color: #fff;
-  margin-top: 660px;
+  margin-top: 684px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
