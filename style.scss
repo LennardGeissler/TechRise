@@ -49,7 +49,7 @@ p {
     font-size: 300;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen {
 
     header {
         width: 100%;
@@ -666,10 +666,57 @@ p {
     }
 }
 
-@media screen and (max-width: 1000px) {
-    
+@media screen and (max-width: 999px) {
+    header {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: $medium-2 $large-1;
+        background-color: #fff;
+
+        img {
+            width: 180px;
+            height: 80px;
+            object-fit: cover;
+        }
+
+        nav {
+            width: 50%;
+
+            ul {
+                display: flex;
+                justify-content: space-between;
+
+                li {
+                    list-style: none;
+
+                    a {
+                        color: #333;
+                        text-decoration: none;
+                        font-size: $medium-2;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+
+        button {
+            width: 180px;
+            height: $large-2;
+            border-radius: $medium-3;
+            border: none;
+            background-color: $tertiary;
+
+            a {
+                color: $text-light;
+                text-decoration: none;
+                font-size: $medium-2;
+                font-weight: 300;
+            }
+        }
+    }
 }
 
-@media screen and (max-width: 480px) {
-    
-}
+@media screen and (max-width: 480px) {}
