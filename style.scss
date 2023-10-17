@@ -677,8 +677,9 @@ p {
         background-color: #fff;
 
         img {
-            width: 180px;
-            height: 80px;
+            width: 120px;
+            height: $large-3;
+            height: auto;
             object-fit: cover;
         }
 
@@ -688,6 +689,7 @@ p {
             ul {
                 display: flex;
                 justify-content: space-between;
+                padding: 0;
 
                 li {
                     list-style: none;
@@ -695,7 +697,7 @@ p {
                     a {
                         color: #333;
                         text-decoration: none;
-                        font-size: $medium-2;
+                        font-size: $medium-1;
                         font-weight: 300;
                     }
                 }
@@ -703,8 +705,8 @@ p {
         }
 
         button {
-            width: 180px;
-            height: $large-2;
+            width: 20%;
+            height: 40px;
             border-radius: $medium-3;
             border: none;
             background-color: $tertiary;
@@ -712,7 +714,7 @@ p {
             a {
                 color: $text-light;
                 text-decoration: none;
-                font-size: $medium-2;
+                font-size: $medium-1;
                 font-weight: 300;
             }
         }

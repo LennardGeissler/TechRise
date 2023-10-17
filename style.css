@@ -546,8 +546,9 @@ p {
     background-color: #fff;
   }
   header img {
-    width: 180px;
-    height: 80px;
+    width: 120px;
+    height: 64px;
+    height: auto;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -557,6 +558,7 @@ p {
   header nav ul {
     display: flex;
     justify-content: space-between;
+    padding: 0;
   }
   header nav ul li {
     list-style: none;
@@ -564,12 +566,12 @@ p {
   header nav ul li a {
     color: #333;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
   }
   header button {
-    width: 180px;
-    height: 48px;
+    width: 20%;
+    height: 40px;
     border-radius: 24px;
     border: none;
     background-color: #EFBD5B;
@@ -577,7 +579,7 @@ p {
   header button a {
     color: #fff;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
   }
 }/*# sourceMappingURL=style.css.map */
