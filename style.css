@@ -586,7 +586,7 @@ p {
     position: absolute;
     z-index: 1;
     width: 100%;
-    height: 500px;
+    height: 470px;
   }
   .welcome .welcome-inner {
     position: absolute;
@@ -638,5 +638,186 @@ p {
     font-weight: 300;
     text-decoration: none;
     letter-spacing: 1px;
+  }
+  .goals {
+    margin-top: 550px;
+    padding: 0 90px;
+  }
+  .goals .companyGoals {
+    color: #166EAD;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  .goals h1 {
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin: 12px 0;
+  }
+  .goals .new {
+    margin-top: 24px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  .goals .new br {
+    display: none;
+  }
+  .goals .services-home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0;
+  }
+  .goals .services-home button {
+    width: 30%;
+    height: 250px;
+    border-radius: 48px;
+    background-color: #fafafa;
+    border: 1px solid rgba(51, 51, 51, 0.6);
+  }
+  .goals .services-home button img {
+    width: 30%;
+    margin-bottom: 24px;
+  }
+  .goals .services-home button p {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
+  .goals .services-home button:hover {
+    filter: brightness(0.9);
+  }
+  .goals .services-home button:hover p {
+    font-size: 21px;
+    font-weight: 500;
+    text-shadow: 4px 4px 12px 12px;
+    transition: 0.3s ease;
+  }
+  .goals .products-and-services {
+    width: 100%;
+    height: 60px;
+    border-radius: 48px;
+    background-color: #fafafa;
+    border: 1px solid rgba(51, 51, 51, 0.6);
+  }
+  .goals .products-and-services p {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
+  .goals .products-and-services:hover {
+    filter: brightness(0.9);
+  }
+  .goals .products-and-services:hover p {
+    font-size: 21px;
+    font-weight: 500;
+    text-shadow: 4px 4px 12px 12px;
+    transition: 0.3s ease;
+  }
+  .goals .workers-1 {
+    display: flex;
+    justify-content: center;
+    margin: 64px 0;
+    gap: 10%;
+  }
+  .goals .workers-1 img {
+    margin-bottom: 16px;
+    width: 100%;
+    height: auto;
+  }
+  .goals .workers-1 h2 {
+    font-size: 24px;
+    margin-bottom: 4px;
+  }
+  .goals .workers-1 p {
+    font-size: 16px;
+  }
+  .techrise {
+    margin: 48px 0;
+  }
+  .techrise .subtitle-1 {
+    color: #166EAD;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  .techrise .subtitle-2 {
+    color: #333;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  .techrise h1 {
+    color: #333;
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin: 12px 0;
+  }
+  .techrise .bg-img-2 {
+    margin: 32px 0;
+    width: 100%;
+    height: 400px;
+  }
+  .techrise .carousel {
+    display: flex;
+  }
+  .techrise .carousel article {
+    margin-top: 24px;
+    padding: 0 100px;
+    width: 100%;
+    height: 260px;
+    display: none;
+  }
+  .techrise .carousel article .description {
+    text-align: center;
+    line-height: 24px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+  }
+  .techrise .carousel .fade {
+    animation-name: fade;
+    animation-duration: 1s;
+  }
+  @keyframes fade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .techrise nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .techrise nav button {
+    width: 48px;
+    height: 48px;
+    border: none;
+    background-color: transparent;
+    -o-object-fit: cover;
+       object-fit: cover;
+    cursor: pointer;
+  }
+  .techrise nav button:hover {
+    filter: brightness(0.9);
+  }
+  .techrise nav button img {
+    width: 32px;
+    height: 32px;
+  }
+  .techrise nav div {
+    text-align: center;
+    width: 48px;
+    margin: 0;
+    padding: 0;
   }
 }/*# sourceMappingURL=style.css.map */
