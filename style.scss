@@ -1101,6 +1101,47 @@ p {
         }
     }
 
+    .services {
+        margin-top: 450px;
+        padding: 0 10%;
+
+
+        .service {
+            letter-spacing: 1px;
+            margin-bottom: $large-3;
+
+            .subtitle {
+                color: #166EAD;
+                font-size: $medium-1;
+                text-align: center !important;
+            }
+
+            h1 {
+                font-size: $large-1;
+                margin: $small-3 0;
+                text-align: center;
+            }
+
+            p {
+                margin-top: 24px;
+                line-height: $medium-3;
+                font-size: $medium-1;
+                text-align: justify;
+            }
+
+            ul {
+                li {
+                    margin-bottom: $small-1;
+                    font-size: $medium-1;
+                }
+            }
+        }
+    }
+
+    .service:last-child {
+        margin-bottom: $large-1;
+    }
+
     footer {
         width: 100%;
         height: 260px;
