@@ -673,7 +673,7 @@ p {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: $medium-2 $large-1;
+        padding: $medium-1 $medium-3;
         background-color: #fff;
 
         img {
@@ -684,7 +684,7 @@ p {
         }
 
         nav {
-            width: 50%;
+            width: 52%;
 
             ul {
                 display: flex;
@@ -725,22 +725,22 @@ p {
             position: absolute;
             z-index: 1;
             width: 100%;
-            height: 470px;
+            height: 410px;
         }
 
         .welcome-inner {
             position: absolute;
             z-index: 2;
-            width: 70%;
-            max-width: 700px;
-            padding: $large-2;
+            width: 60%;
+            max-width: 600px;
+            padding: $large-1;
             letter-spacing: 1px;
 
             .subtitle {
                 color: $text-dark;
-                font-size: $medium-1;
+                font-size: $small-3;
                 font-weight: 500;
-                margin-bottom: $medium-2;
+                margin-bottom: $small-3;
             }
 
             .welcome-inner-text {
@@ -756,22 +756,22 @@ p {
 
             p {
                 color: $text-light;
-                font-size: $medium-1;
+                font-size: $small-3;
                 font-weight: 300;
-                line-height: 28px;
+                line-height: 24px;
             }
 
             .links {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                width: 70%;
+                width: 80%;
                 padding: 0;
-                margin-top: $large-2;
+                margin-top: $large-1;
 
                 button {
                     width: 200px;
-                    height: $large-2;
+                    height: 40px;
                     border-radius: $medium-3;
                     border: none;
                     background-color: $tertiary;
@@ -779,7 +779,7 @@ p {
 
                 a {
                     color: $text-light;
-                    font-size: $medium-1;
+                    font-size: $small-3;
                     font-weight: 300;
                     text-decoration: none;
                     letter-spacing: 1px;
@@ -789,7 +789,7 @@ p {
     }
 
     .goals {
-        margin-top: 550px;
+        margin-top: 450px;
         padding: 0 90px;
 
         .companyGoals {
@@ -801,7 +801,7 @@ p {
 
         h1 {
             text-align: center;
-            font-size: $large-1;
+            font-size: $medium-3;
             letter-spacing: 1px;
             margin: $small-3 0;
         }
@@ -810,7 +810,7 @@ p {
             margin-top: 24px;
             text-align: center;
             line-height: $medium-3;
-            font-size: $medium-1;
+            font-size: $small-3;
             letter-spacing: 1px;
 
             br {
@@ -826,7 +826,7 @@ p {
 
             button {
                 width: 30%;
-                height: 250px;
+                height: 230px;
                 border-radius: $large-2;
                 background-color: #fafafa;
                 border: 1px solid rgba($color: #333, $alpha: 0.6);
@@ -904,19 +904,19 @@ p {
     }
 
     .techrise {
-        margin: $large-2 0;
+        margin: $large-2 0 $large-1 0;
 
         .subtitle-1 {
             color: #166EAD;
             text-align: center;
-            font-size: $medium-2;
+            font-size: $medium-1;
             letter-spacing: 1px;
         }
 
         .subtitle-2 {
             color: #333;
             text-align: center;
-            font-size: $medium-2;
+            font-size: $medium-1;
             font-weight: 500;
             letter-spacing: 1px;
         }
@@ -924,15 +924,15 @@ p {
         h1 {
             color: #333;
             text-align: center;
-            font-size: $large-1;
+            font-size: $medium-3;
             letter-spacing: 1px;
             margin: $small-3 0;
         }
 
         .bg-img-2 {
-            margin: $large-1 0;
+            margin: $medium-2 0;
             width: 100%;
-            height: 400px;
+            height: 360px;
         }
 
         .carousel {
@@ -942,13 +942,13 @@ p {
                 margin-top: 24px;
                 padding: 0 100px;
                 width: 100%;
-                height: 260px;
+                height: 180px;
                 display: none;
 
                 .description {
                     text-align: center;
-                    line-height: $medium-3;
-                    font-size: $medium-1;
+                    line-height: $medium-2;
+                    font-size: $small-3;
                     margin-bottom: 20px;
                     letter-spacing: 1px;
                 }
@@ -1003,6 +1003,183 @@ p {
             }
         }
     }
+
+    .contact {
+        .bg-img2 {
+            position: absolute;
+            z-index: 3;
+            width: 100%;
+            height: 500px;
+        }
+
+        .contact-inner {
+            position: absolute;
+            z-index: 4;
+            width: 100%;
+            height: 500px;
+            display: flex;
+            justify-content: space-between;
+            padding: $large-1 0 $large-1 $large-1;
+
+            div {
+                width: 50%;
+                letter-spacing: 1px;
+
+                .subtitle {
+                    color: $text-dark;
+                    font-size: $medium-1;
+                    font-weight: 500;
+                    margin-bottom: $medium-2;
+
+                }
+
+                h1 {
+                    color: $text-light;
+                    font-weight: 600;
+                    font-size: $large-1;
+                    margin-bottom: $medium-2;
+                }
+
+                p {
+                    color: $text-light;
+                    font-size: $small-3;
+                    font-weight: 300;
+                    line-height: 20px;
+                    text-align: justify;
+                }
+
+                form {
+                    p {
+                        font-size: $small-3;
+                    }
+
+                    input {
+                        width: 90%;
+                        height: 40px;
+                        margin-bottom: $small-1;
+                        border: none;
+                        border-radius: $small-2;
+                        color: $text-dark;
+                        padding: $small-3;
+                        font-size: $medium-1;
+                        letter-spacing: 1px;
+                    }
+
+                    input:focus {
+                        border: none;
+                    }
+                }
+
+                .contact-privacy {
+                    width: 90%;
+                    font-size: 6px;
+                    line-height: $small-2;
+                    text-align: justify;
+                    margin-bottom: $medium-2;
+                }
+
+                button {
+                    width: 180px;
+                    height: 40px;
+                    border-radius: $medium-3;
+                    border: none;
+                    background-color: $tertiary;
+                    color: $text-light;
+                    font-size: $small-3;
+                }
+
+                button:hover {
+                    filter: brightness(0.9);
+                    transition: 0.3s ease-in;
+                    cursor: pointer;
+                }
+            }
+
+            div:last-child {
+                width: 40%;
+            }
+        }
+    }
+
+    footer {
+        width: 100%;
+        height: 260px;
+        background-color: #fff;
+        margin-top: 532px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: $large-1 60px;
+
+        div {
+            width: calc(100% / 3);
+
+            img {
+                width: 80%;
+                margin-bottom: $large-3;
+            }
+
+            .nav-light {
+                ul {
+                    padding-inline-start: 0;
+
+                    li {
+                        list-style: none;
+                        height: $large-1;
+
+                        a {
+                            text-decoration: none;
+                            color: $text-dark;
+                            font-size: $small-3;
+                            font-weight: 300;
+                            letter-spacing: 2px;
+                        }
+                    }
+
+                }
+            }
+
+            .nav-bold {
+                ul {
+                    padding-inline-start: 0;
+
+                    li {
+                        list-style: none;
+                        height: $large-2;
+
+                        a {
+                            text-decoration: none;
+                            color: $text-dark;
+                            font-size: $medium-1;
+                            font-weight: 400;
+                            letter-spacing: 2px;
+                        }
+                    }
+
+                }
+            }
+
+            .social-media {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                margin-top: $medium-1;
+
+                img {
+                    width: $large-2;
+                    height: $large-2;
+                }
+            }
+        }
+    }
+
+    .contact-footer {
+        margin-top: 1268px;
+    }
 }
 
-@media screen and (max-width: 480px) {}
+@media screen and (max-width: 480px) {
+
+    
+}
