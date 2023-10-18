@@ -899,6 +899,51 @@ p {
   .contact .contact-inner div:last-child {
     width: 40%;
   }
+  .references {
+    margin-top: 450px;
+    padding: 0 64px;
+  }
+  .references .reviews {
+    display: flex;
+    justify-content: space-between;
+  }
+  .references .reviews div {
+    width: 30%;
+    height: 250px;
+    border-radius: 48px;
+    border: 1px solid rgba(51, 51, 51, 0.6);
+    background-color: #fff;
+    padding: 16px;
+    text-align: center;
+  }
+  .references .reviews div .logos {
+    height: auto;
+    width: 80%;
+    align-self: center;
+    margin: 0 auto 8px auto;
+  }
+  .references .reviews div .stars {
+    height: 16px;
+    margin: 0 auto 12px auto;
+  }
+  .references .reviews div p {
+    font-size: 12px;
+    color: #333;
+    line-height: 16px;
+    letter-spacing: 1px;
+  }
+  .references .reviews .review-center {
+    height: 280px;
+  }
+  .references .more {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #55A1E1;
+    margin-top: 32px;
+  }
   .services {
     margin-top: 450px;
     padding: 0 10%;
