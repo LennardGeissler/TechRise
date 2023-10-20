@@ -25,7 +25,8 @@ h6 {
   font-weight: 500;
 }
 
-p, a {
+p,
+a {
   font-size: 300;
 }
 
@@ -1039,5 +1040,98 @@ p, a {
   }
   .contact-footer {
     margin-top: 910px;
+  }
+}
+@media screen and (max-width: 480px) {
+  header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 8px;
+    background-color: #fff;
+  }
+  header .headerImg {
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header .headerImg img {
+    width: 64px;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 50%;
+       object-position: 50% 50%;
+  }
+  header nav {
+    width: 55%;
+    align-items: center;
+  }
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+  }
+  header nav ul li {
+    list-style: none;
+    text-align: center;
+  }
+  header nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  header button {
+    width: 64px;
+    height: 32px;
+    border-radius: 24px;
+    border: none;
+    background-color: #EFBD5B;
+  }
+  header button a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .welcome .bg-img {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 300px;
+  }
+  .welcome .welcome-inner {
+    position: absolute;
+    z-index: 2;
+    width: 70%;
+    max-width: 600px;
+    padding: 24px;
+    letter-spacing: 1px;
+  }
+  .welcome .welcome-inner .subtitle {
+    color: #333;
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom: 12px;
+  }
+  .welcome .welcome-inner .welcome-inner-text {
+    height: 105px;
+  }
+  .welcome .welcome-inner h1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .welcome .welcome-inner p {
+    color: #fff;
+    font-size: 8px;
+    line-height: 16px;
+  }
+  .welcome .welcome-inner .links {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
