@@ -25,7 +25,7 @@ h6 {
   font-weight: 500;
 }
 
-p {
+p, a {
   font-size: 300;
 }
 
@@ -51,6 +51,7 @@ p {
   header nav ul {
     display: flex;
     justify-content: space-between;
+    padding: 0;
   }
   header nav ul li {
     list-style: none;
@@ -59,7 +60,6 @@ p {
     color: #333;
     text-decoration: none;
     font-size: 20px;
-    font-weight: 300;
   }
   header button {
     width: 180px;
@@ -72,7 +72,6 @@ p {
     color: #fff;
     text-decoration: none;
     font-size: 20px;
-    font-weight: 300;
   }
   .welcome .bg-img {
     position: absolute;
@@ -106,7 +105,6 @@ p {
   .welcome .welcome-inner p {
     color: #fff;
     font-size: 16px;
-    font-weight: 300;
     line-height: 28px;
   }
   .welcome .welcome-inner .links {
@@ -127,13 +125,12 @@ p {
   .welcome .welcome-inner .links a {
     color: #fff;
     font-size: 16px;
-    font-weight: 300;
     text-decoration: none;
     letter-spacing: 1px;
   }
   .goals {
     margin-top: 648px;
-    padding: 0 120px;
+    padding: 0 180px;
   }
   .goals .companyGoals {
     color: #166EAD;
@@ -173,7 +170,6 @@ p {
   }
   .goals .services-home button p {
     font-size: 20px;
-    font-weight: 300;
     letter-spacing: 2px;
   }
   .goals .services-home button:hover {
@@ -194,7 +190,6 @@ p {
   }
   .goals .products-and-services p {
     font-size: 20px;
-    font-weight: 300;
     letter-spacing: 2px;
   }
   .goals .products-and-services:hover {
@@ -257,7 +252,7 @@ p {
   }
   .techrise .carousel article {
     margin-top: 24px;
-    padding: 0 100px;
+    padding: 0 180px;
     width: 100%;
     height: 200px;
     display: none;
@@ -343,7 +338,6 @@ p {
   .contact .contact-inner div p {
     color: #fff;
     font-size: 16px;
-    font-weight: 300;
     line-height: 24px;
     text-align: justify;
   }
@@ -490,6 +484,7 @@ p {
   }
   footer div img {
     width: 80%;
+    max-width: 300px;
     margin-bottom: 64px;
   }
   footer div .nav-light ul {
@@ -503,7 +498,6 @@ p {
     text-decoration: none;
     color: #333;
     font-size: 16px;
-    font-weight: 300;
     letter-spacing: 2px;
   }
   footer div .nav-bold ul {
@@ -553,7 +547,7 @@ p {
        object-fit: cover;
   }
   header nav {
-    width: 52%;
+    width: 45%;
   }
   header nav ul {
     display: flex;
@@ -567,7 +561,9 @@ p {
     color: #333;
     text-decoration: none;
     font-size: 16px;
-    font-weight: 300;
+  }
+  header nav ul li:first-child {
+    display: none;
   }
   header button {
     width: 20%;
@@ -580,7 +576,6 @@ p {
     color: #fff;
     text-decoration: none;
     font-size: 16px;
-    font-weight: 300;
   }
   .welcome .bg-img {
     position: absolute;
@@ -614,7 +609,6 @@ p {
   .welcome .welcome-inner p {
     color: #fff;
     font-size: 12px;
-    font-weight: 300;
     line-height: 24px;
   }
   .welcome .welcome-inner .links {
@@ -635,13 +629,12 @@ p {
   .welcome .welcome-inner .links a {
     color: #fff;
     font-size: 12px;
-    font-weight: 300;
     text-decoration: none;
     letter-spacing: 1px;
   }
   .goals {
     margin-top: 450px;
-    padding: 0 90px;
+    padding: 0 80px;
   }
   .goals .companyGoals {
     color: #166EAD;
@@ -677,6 +670,7 @@ p {
     border-radius: 48px;
     background-color: #fafafa;
     border: 1px solid rgba(51, 51, 51, 0.6);
+    padding: 4px;
   }
   .goals .services-home button img {
     width: 30%;
@@ -684,8 +678,8 @@ p {
   }
   .goals .services-home button p {
     font-size: 16px;
-    font-weight: 300;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    font-family: "Inter", sans-serif;
   }
   .goals .services-home button:hover {
     filter: brightness(0.9);
@@ -705,8 +699,8 @@ p {
   }
   .goals .products-and-services p {
     font-size: 16px;
-    font-weight: 300;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    font-family: "Inter", sans-serif;
   }
   .goals .products-and-services:hover {
     filter: brightness(0.9);
@@ -720,23 +714,23 @@ p {
   .goals .workers-1 {
     display: flex;
     justify-content: center;
-    margin: 64px 0;
-    gap: 10%;
+    margin: 32px 0 48px 0;
+    gap: 3%;
   }
   .goals .workers-1 img {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
     width: 100%;
     height: auto;
   }
   .goals .workers-1 h2 {
-    font-size: 24px;
+    font-size: 16px;
     margin-bottom: 4px;
   }
   .goals .workers-1 p {
-    font-size: 16px;
+    font-size: 12px;
   }
   .techrise {
-    margin: 48px 0 32px 0;
+    margin: 48px 0;
   }
   .techrise .subtitle-1 {
     color: #166EAD;
@@ -854,7 +848,6 @@ p {
   .contact .contact-inner div p {
     color: #fff;
     font-size: 12px;
-    font-weight: 300;
     line-height: 20px;
     text-align: justify;
   }
@@ -898,6 +891,20 @@ p {
   }
   .contact .contact-inner div:last-child {
     width: 40%;
+  }
+  .contact-form {
+    margin-top: 430px;
+    color: #333;
+  }
+  .contact-form .bg-img-3 {
+    background-color: #FAFAFA;
+  }
+  .contact-form h1,
+  .contact-form p {
+    color: #333 !important;
+  }
+  .contact-form .subtitle {
+    color: #55A1E1 !important;
   }
   .references {
     margin-top: 450px;
@@ -958,28 +965,28 @@ p {
     text-align: center !important;
   }
   .services .service h1 {
-    font-size: 32px;
+    font-size: 24px;
     margin: 12px 0;
     text-align: center;
   }
   .services .service p {
     margin-top: 24px;
-    line-height: 24px;
-    font-size: 16px;
+    line-height: 20px;
+    font-size: 12px;
     text-align: justify;
   }
   .services .service ul li {
     margin-bottom: 4px;
-    font-size: 16px;
+    font-size: 12px;
   }
   .service:last-child {
-    margin-bottom: 32px;
+    margin-bottom: 48px;
   }
   footer {
     width: 100%;
     height: 260px;
     background-color: #fff;
-    margin-top: 532px;
+    margin-top: 548px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -1003,7 +1010,6 @@ p {
     text-decoration: none;
     color: #333;
     font-size: 12px;
-    font-weight: 300;
     letter-spacing: 2px;
   }
   footer div .nav-bold ul {
@@ -1032,6 +1038,6 @@ p {
     height: 48px;
   }
   .contact-footer {
-    margin-top: 1268px;
+    margin-top: 910px;
   }
 }/*# sourceMappingURL=style.css.map */

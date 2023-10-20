@@ -1,3 +1,4 @@
+//-----Slideshow Homepage-----//
 let slideIndex = 1;
 
 const plusSlides = (n) => {

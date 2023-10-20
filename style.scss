@@ -18,6 +18,7 @@ $text-dark: #333;
 $font: 'Inter', sans-serif;
 $font-2: 'Open Sans', sans-serif;
 
+//-----General CSS-----//
 * {
     margin: 0;
     box-sizing: border-box;
@@ -45,10 +46,12 @@ h6 {
     font-weight: 500;
 }
 
-p {
+p, a {
     font-size: 300;
 }
 
+
+//-----Desktop-Version-----//
 @media screen {
 
     header {
@@ -72,6 +75,7 @@ p {
             ul {
                 display: flex;
                 justify-content: space-between;
+                padding: 0;
 
                 li {
                     list-style: none;
@@ -80,7 +84,6 @@ p {
                         color: #333;
                         text-decoration: none;
                         font-size: $medium-2;
-                        font-weight: 300;
                     }
                 }
             }
@@ -97,7 +100,6 @@ p {
                 color: $text-light;
                 text-decoration: none;
                 font-size: $medium-2;
-                font-weight: 300;
             }
         }
     }
@@ -139,7 +141,6 @@ p {
             p {
                 color: $text-light;
                 font-size: $medium-1;
-                font-weight: 300;
                 line-height: 28px;
             }
 
@@ -162,7 +163,6 @@ p {
                 a {
                     color: $text-light;
                     font-size: $medium-1;
-                    font-weight: 300;
                     text-decoration: none;
                     letter-spacing: 1px;
                 }
@@ -172,7 +172,7 @@ p {
 
     .goals {
         margin-top: 648px;
-        padding: 0 120px;
+        padding: 0 180px;
 
         .companyGoals {
             color: #166EAD;
@@ -216,7 +216,6 @@ p {
 
                 p {
                     font-size: $medium-2;
-                    font-weight: 300;
                     letter-spacing: 2px;
                 }
             }
@@ -242,7 +241,6 @@ p {
 
             p {
                 font-size: $medium-2;
-                font-weight: 300;
                 letter-spacing: 2px;
             }
 
@@ -318,7 +316,7 @@ p {
 
             article {
                 margin-top: 24px;
-                padding: 0 100px;
+                padding: 0 180px;
                 width: 100%;
                 height: 200px;
                 display: none;
@@ -421,7 +419,6 @@ p {
                 p {
                     color: $text-light;
                     font-size: $medium-1;
-                    font-weight: 300;
                     line-height: 24px;
                     text-align: justify;
                 }
@@ -603,6 +600,7 @@ p {
 
             img {
                 width: 80%;
+                max-width: 300px;
                 margin-bottom: $large-3;
             }
 
@@ -618,7 +616,6 @@ p {
                             text-decoration: none;
                             color: $text-dark;
                             font-size: $medium-1;
-                            font-weight: 300;
                             letter-spacing: 2px;
                         }
                     }
@@ -666,6 +663,8 @@ p {
     }
 }
 
+
+//-----Tablet-Version-----//
 @media screen and (max-width: 999px) {
     header {
         width: 100%;
@@ -684,7 +683,7 @@ p {
         }
 
         nav {
-            width: 52%;
+            width: 45%;
 
             ul {
                 display: flex;
@@ -698,8 +697,11 @@ p {
                         color: #333;
                         text-decoration: none;
                         font-size: $medium-1;
-                        font-weight: 300;
                     }
+                }
+
+                li:first-child {
+                    display: none;
                 }
             }
         }
@@ -715,7 +717,6 @@ p {
                 color: $text-light;
                 text-decoration: none;
                 font-size: $medium-1;
-                font-weight: 300;
             }
         }
     }
@@ -757,7 +758,6 @@ p {
             p {
                 color: $text-light;
                 font-size: $small-3;
-                font-weight: 300;
                 line-height: 24px;
             }
 
@@ -780,7 +780,6 @@ p {
                 a {
                     color: $text-light;
                     font-size: $small-3;
-                    font-weight: 300;
                     text-decoration: none;
                     letter-spacing: 1px;
                 }
@@ -790,7 +789,7 @@ p {
 
     .goals {
         margin-top: 450px;
-        padding: 0 90px;
+        padding: 0 80px;
 
         .companyGoals {
             color: #166EAD;
@@ -830,6 +829,7 @@ p {
                 border-radius: $large-2;
                 background-color: #fafafa;
                 border: 1px solid rgba($color: #333, $alpha: 0.6);
+                padding: $small-1;
 
                 img {
                     width: 30%;
@@ -838,8 +838,8 @@ p {
 
                 p {
                     font-size: $medium-1;
-                    font-weight: 300;
-                    letter-spacing: 2px;
+                    letter-spacing: 1px;
+                    font-family: $font;
                 }
             }
 
@@ -864,8 +864,8 @@ p {
 
             p {
                 font-size: $medium-1;
-                font-weight: 300;
-                letter-spacing: 2px;
+                letter-spacing: 1px;
+                font-family: $font;
             }
 
             &:hover {
@@ -883,28 +883,28 @@ p {
         .workers-1 {
             display: flex;
             justify-content: center;
-            margin: $large-3 0;
-            gap: 10%;
+            margin: $large-1 0 $large-2 0;
+            gap: 3%;
 
             img {
-                margin-bottom: $medium-1;
+                margin-bottom: $small-2;
                 width: 100%;
                 height: auto;
             }
 
             h2 {
-                font-size: $medium-3;
+                font-size: $medium-1;
                 margin-bottom: $small-1;
             }
 
             p {
-                font-size: $medium-1;
+                font-size: $small-3;
             }
         }
     }
 
     .techrise {
-        margin: $large-2 0 $large-1 0;
+        margin: $large-2 0;
 
         .subtitle-1 {
             color: #166EAD;
@@ -1043,8 +1043,7 @@ p {
                 p {
                     color: $text-light;
                     font-size: $small-3;
-                    font-weight: 300;
-                    line-height: 20px;
+                    line-height: $medium-2;
                     text-align: justify;
                 }
 
@@ -1098,6 +1097,24 @@ p {
             div:last-child {
                 width: 40%;
             }
+        }
+    }
+
+    .contact-form {
+        margin-top: 430px;
+        color: #333;
+
+        .bg-img-3 {
+            background-color: #FAFAFA;
+        }
+
+        h1,
+        p {
+            color: #333 !important;
+        }
+
+        .subtitle {
+            color: $primary !important;
         }
     }
 
@@ -1171,36 +1188,36 @@ p {
             }
 
             h1 {
-                font-size: $large-1;
+                font-size: $medium-3;
                 margin: $small-3 0;
                 text-align: center;
             }
 
             p {
                 margin-top: 24px;
-                line-height: $medium-3;
-                font-size: $medium-1;
+                line-height: $medium-2;
+                font-size: $small-3;
                 text-align: justify;
             }
 
             ul {
                 li {
                     margin-bottom: $small-1;
-                    font-size: $medium-1;
+                    font-size: $small-3;
                 }
             }
         }
     }
 
     .service:last-child {
-        margin-bottom: $large-1;
+        margin-bottom: $large-2;
     }
 
     footer {
         width: 100%;
         height: 260px;
         background-color: #fff;
-        margin-top: 532px;
+        margin-top: 548px;
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
@@ -1226,7 +1243,6 @@ p {
                             text-decoration: none;
                             color: $text-dark;
                             font-size: $small-3;
-                            font-weight: 300;
                             letter-spacing: 2px;
                         }
                     }
@@ -1270,11 +1286,9 @@ p {
     }
 
     .contact-footer {
-        margin-top: 1268px;
+        margin-top: 910px;
     }
 }
 
-@media screen and (max-width: 480px) {
-
-    
-}
+//-----Smartphone-Version-----//
+@media screen and (max-width: 480px) {}
