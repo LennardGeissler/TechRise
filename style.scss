@@ -829,7 +829,6 @@ a {
                 border-radius: $large-2;
                 background-color: #fafafa;
                 border: 1px solid rgba($color: #333, $alpha: 0.6);
-                padding: $small-1;
 
                 img {
                     width: 30%;
@@ -837,7 +836,7 @@ a {
                 }
 
                 p {
-                    font-size: $medium-1;
+                    font-size: 14px;
                     letter-spacing: 1px;
                     font-family: $font;
                 }
@@ -1606,12 +1605,13 @@ a {
             margin-top: $medium-2;
 
             button {
-                width: $medium-2;
-                height: $medium-2;
+                width: $medium-3;
+                height: $medium-3;
                 border: none;
                 background-color: transparent;
                 object-fit: cover;
                 cursor: pointer;
+                padding: 0;
 
                 &:hover {
                     filter: brightness(0.9);

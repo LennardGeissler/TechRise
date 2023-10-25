@@ -671,14 +671,13 @@ a {
     border-radius: 48px;
     background-color: #fafafa;
     border: 1px solid rgba(51, 51, 51, 0.6);
-    padding: 4px;
   }
   .goals .services-home button img {
     width: 30%;
     margin-bottom: 24px;
   }
   .goals .services-home button p {
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 1px;
     font-family: "Inter", sans-serif;
   }
@@ -1308,13 +1307,14 @@ a {
     margin-top: 20px;
   }
   .techrise nav button {
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     border: none;
     background-color: transparent;
     -o-object-fit: cover;
        object-fit: cover;
     cursor: pointer;
+    padding: 0;
   }
   .techrise nav button:hover {
     filter: brightness(0.9);
