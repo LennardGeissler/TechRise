@@ -64,9 +64,10 @@ a {
         background-color: #fff;
 
         img {
-            width: 180px;
+            width: auto;
             height: 80px;
             object-fit: cover;
+            object-position: center center;
         }
 
         nav {
@@ -1304,16 +1305,17 @@ a {
 
 
         .headerImg {
-            height: $large-3 !important;
+            height: $large-1 !important;
             display: flex;
             justify-content: center;
             align-items: center;
 
             img {
-                width: $large-3 !important;
+                width: $large-1 !important;
                 height: auto;
                 object-fit: cover;
-                object-position: 50% 50%;
+                object-position: 20% 20%;
+                content: url(images/techrise-logo-icon.png);
             }
         }
 
@@ -1393,6 +1395,7 @@ a {
                 color: $text-light;
                 font-size: $small-2;
                 line-height: $medium-1;
+                font-weight: 300;
             }
 
             .links {
@@ -1444,7 +1447,7 @@ a {
 
             button {
                 width: 100%;
-                height: 120px;
+                height: 100px;
                 border-radius: $large-2;
                 background-color: #fafafa;
                 border: 1px solid rgba($color: #333, $alpha: 0.6);
@@ -1455,12 +1458,13 @@ a {
                 align-items: center;
 
                 img {
-                    width: 25%;
+                    width: 20%;
                     margin-bottom: 0;
+                    margin-right: $small-3;
                 }
 
                 p {
-                    font-size: $medium-1;
+                    font-size: $small-3;
                     letter-spacing: 1px;
                     font-family: $font;
                     text-align: center;
@@ -1471,7 +1475,7 @@ a {
                 filter: brightness(0.9);
 
                 p {
-                    font-size: 18px;
+                    font-size: 13px;
                     font-weight: 500;
                     text-shadow: 4px 4px 12px 12px;
                     transition: 0.3s ease;
@@ -1487,7 +1491,7 @@ a {
             border: 1px solid rgba($color: #333, $alpha: 0.6);
 
             p {
-                font-size: $medium-1;
+                font-size: $small-3;
                 letter-spacing: 1px;
                 font-family: $font;
             }
@@ -1496,7 +1500,7 @@ a {
                 filter: brightness(0.9);
 
                 p {
-                    font-size: 21px;
+                    font-size: 13px;
                     font-weight: 500;
                     text-shadow: 4px 4px 12px 12px;
                     transition: 0.3s ease;
@@ -1702,8 +1706,8 @@ a {
 
                 .contact-privacy {
                     width: 95%;
-                    font-size: $small-1;
-                    line-height: 6px;
+                    font-size: 3px;
+                    line-height: 5px;
                     text-align: justify;
                     margin-bottom: $small-3;
                 }
@@ -1846,7 +1850,7 @@ a {
 
     footer {
         width: 100%;
-        height: 560px;
+        height: 480px;
         background-color: #fff;
         margin-top: 398px;
         display: block;
@@ -1858,8 +1862,12 @@ a {
             margin-bottom: $large-1;
 
             img {
-                width: 80%;
-                margin-bottom: $medium-2;
+                width: 50%;
+                margin-bottom: $small-3;
+            }
+
+            p {
+                font-size: $small-2;
             }
 
             .nav-light {
@@ -1873,7 +1881,7 @@ a {
                         a {
                             text-decoration: none;
                             color: $text-dark;
-                            font-size: $small-3;
+                            font-size: $small-2;
                             letter-spacing: 2px;
                         }
                     }
@@ -1892,7 +1900,7 @@ a {
                         a {
                             text-decoration: none;
                             color: $text-dark;
-                            font-size: $medium-1;
+                            font-size: 10px;
                             font-weight: 400;
                             letter-spacing: 2px;
                         }
@@ -1910,8 +1918,8 @@ a {
                 margin-top: $medium-1;
 
                 img {
-                    width: $large-2;
-                    height: $large-2;
+                    width: $large-1;
+                    height: $large-1;
                 }
             }
         }
