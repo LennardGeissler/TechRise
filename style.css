@@ -42,7 +42,7 @@ a {
   }
   header img {
     width: auto;
-    height: 80px;
+    height: 64px;
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: center center;
@@ -248,7 +248,7 @@ a {
   .techrise .bg-img-2 {
     margin: 32px 0;
     width: 100%;
-    height: 550px;
+    height: 600px;
   }
   .techrise .carousel {
     display: flex;
@@ -530,6 +530,41 @@ a {
   }
   .contact-footer {
     margin-top: 1268px;
+  }
+  .impressum {
+    padding: 32px 64px;
+    letter-spacing: 1px;
+  }
+  .impressum h1 {
+    font-size: 32px;
+  }
+  .impressum h2 {
+    font-size: 20px;
+    margin: 12px 0;
+  }
+  .impressum p {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+  }
+  .datenschutz {
+    padding: 32px 64px;
+    letter-spacing: 1px;
+  }
+  .datenschutz h1 {
+    font-size: 32px;
+  }
+  .datenschutz h2 {
+    font-size: 20px;
+    margin: 12px 0;
+  }
+  .datenschutz p {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+  }
+  .datenschutz a {
+    color: #333;
   }
 }
 @media screen and (max-width: 999px) {
@@ -1060,6 +1095,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 8px;
   }
   header .headerImg img {
     width: 32px !important;

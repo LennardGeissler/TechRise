@@ -65,7 +65,7 @@ a {
 
         img {
             width: auto;
-            height: 80px;
+            height: $large-3;
             object-fit: cover;
             object-position: center center;
         }
@@ -309,7 +309,7 @@ a {
         .bg-img-2 {
             margin: $large-1 0;
             width: 100%;
-            height: 550px;
+            height: 600px;
         }
 
         .carousel {
@@ -661,6 +661,50 @@ a {
 
     .contact-footer {
         margin-top: 1268px;
+    }
+
+    .impressum {
+        padding: $large-1 $large-3;
+        letter-spacing: 1px;
+
+        h1 {
+            font-size: $large-1;
+        }
+
+        h2 {
+            font-size: $medium-2;
+            margin: $small-3 0;
+        }
+
+        p {
+            font-size: $medium-1;
+            line-height: 22px;
+            text-align: justify;
+        }
+    }
+
+    .datenschutz {
+        padding: $large-1 $large-3;
+        letter-spacing: 1px;
+
+        h1 {
+            font-size: $large-1;
+        }
+
+        h2 {
+            font-size: $medium-2;
+            margin: $small-3 0;
+        }
+
+        p {
+            font-size: $medium-1;
+            line-height: 22px;
+            text-align: justify;
+        }
+
+        a {
+            color: #333;
+        }
     }
 }
 
@@ -1309,6 +1353,7 @@ a {
             display: flex;
             justify-content: center;
             align-items: center;
+            margin-left: $small-2;
 
             img {
                 width: $large-1 !important;
