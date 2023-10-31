@@ -706,6 +706,30 @@ a {
             color: #333;
         }
     }
+
+    .agb {
+        padding: $large-1 $large-3;
+        letter-spacing: 1px;
+
+        h1 {
+            font-size: $large-1;
+        }
+
+        h2 {
+            font-size: $medium-2;
+            margin: $small-3 0;
+        }
+
+        p {
+            font-size: $medium-1;
+            line-height: 22px;
+            text-align: justify;
+        }
+
+        a {
+            color: #333;
+        }
+    }
 }
 
 

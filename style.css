@@ -566,6 +566,25 @@ a {
   .datenschutz a {
     color: #333;
   }
+  .agb {
+    padding: 32px 64px;
+    letter-spacing: 1px;
+  }
+  .agb h1 {
+    font-size: 32px;
+  }
+  .agb h2 {
+    font-size: 20px;
+    margin: 12px 0;
+  }
+  .agb p {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+  }
+  .agb a {
+    color: #333;
+  }
 }
 @media screen and (max-width: 999px) {
   header {
