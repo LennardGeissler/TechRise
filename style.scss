@@ -664,7 +664,7 @@ a {
     }
 
     .impressum {
-        padding: $large-1 $large-3;
+        padding: $large-1 15%;
         letter-spacing: 1px;
 
         h1 {
@@ -684,7 +684,7 @@ a {
     }
 
     .datenschutz {
-        padding: $large-1 $large-3;
+        padding: $large-1 15%;
         letter-spacing: 1px;
 
         h1 {
@@ -708,7 +708,7 @@ a {
     }
 
     .agb {
-        padding: $large-1 $large-3;
+        padding: $large-1 15%;
         letter-spacing: 1px;
 
         h1 {
@@ -1358,6 +1358,74 @@ a {
     .contact-footer {
         margin-top: 920px;
     }
+
+    .impressum {
+        padding: $large-1 15%;
+        letter-spacing: 1px;
+
+        h1 {
+            font-size: $large-1;
+        }
+
+        h2 {
+            font-size: $medium-2;
+            margin: $small-3 0;
+        }
+
+        p {
+            font-size: $medium-1;
+            line-height: 22px;
+            text-align: justify;
+        }
+    }
+
+    .datenschutz {
+        padding: $large-1 15%;
+        letter-spacing: 1px;
+
+        h1 {
+            font-size: $large-1;
+        }
+
+        h2 {
+            font-size: $medium-2;
+            margin: $small-3 0;
+        }
+
+        p {
+            font-size: $medium-1;
+            line-height: 22px;
+            text-align: justify;
+        }
+
+        a {
+            color: #333;
+        }
+    }
+
+    .agb {
+        padding: $large-1 15%;
+        letter-spacing: 1px;
+
+        h1 {
+            font-size: $large-1;
+        }
+
+        h2 {
+            font-size: $medium-2;
+            margin: $small-3 0;
+        }
+
+        p {
+            font-size: $medium-1;
+            line-height: 22px;
+            text-align: justify;
+        }
+
+        a {
+            color: #333;
+        }
+    }
 }
 
 //-----Smartphone-Version-----//
@@ -2000,5 +2068,73 @@ a {
 
     .services-footer {
         margin-top: 0;
+    }
+
+    .impressum {
+        padding: $large-1 10%;
+        letter-spacing: 1px;
+
+        h1 {
+            font-size: $large-1;
+        }
+
+        h2 {
+            font-size: $medium-2;
+            margin: $small-3 0;
+        }
+
+        p {
+            font-size: $medium-1;
+            line-height: 22px;
+            text-align: justify;
+        }
+    }
+
+    .datenschutz {
+        padding: $large-1 10%;
+        letter-spacing: 1px;
+
+        h1 {
+            font-size: $large-1;
+        }
+
+        h2 {
+            font-size: $medium-2;
+            margin: $small-3 0;
+        }
+
+        p {
+            font-size: $medium-1;
+            line-height: 22px;
+            text-align: justify;
+        }
+
+        a {
+            color: #333;
+        }
+    }
+
+    .agb {
+        padding: $large-1 10%;
+        letter-spacing: 1px;
+
+        h1 {
+            font-size: $medium-3;
+        }
+
+        h2 {
+            font-size: $medium-1;
+            margin: $small-3 0;
+        }
+
+        p {
+            font-size: $small-3;
+            line-height: $medium-2;
+            text-align: justify;
+        }
+
+        a {
+            color: #333;
+        }
     }
 }

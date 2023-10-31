@@ -532,7 +532,7 @@ a {
     margin-top: 1268px;
   }
   .impressum {
-    padding: 32px 64px;
+    padding: 32px 15%;
     letter-spacing: 1px;
   }
   .impressum h1 {
@@ -548,7 +548,7 @@ a {
     text-align: justify;
   }
   .datenschutz {
-    padding: 32px 64px;
+    padding: 32px 15%;
     letter-spacing: 1px;
   }
   .datenschutz h1 {
@@ -567,7 +567,7 @@ a {
     color: #333;
   }
   .agb {
-    padding: 32px 64px;
+    padding: 32px 15%;
     letter-spacing: 1px;
   }
   .agb h1 {
@@ -1098,6 +1098,60 @@ a {
   .contact-footer {
     margin-top: 920px;
   }
+  .impressum {
+    padding: 32px 15%;
+    letter-spacing: 1px;
+  }
+  .impressum h1 {
+    font-size: 32px;
+  }
+  .impressum h2 {
+    font-size: 20px;
+    margin: 12px 0;
+  }
+  .impressum p {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+  }
+  .datenschutz {
+    padding: 32px 15%;
+    letter-spacing: 1px;
+  }
+  .datenschutz h1 {
+    font-size: 32px;
+  }
+  .datenschutz h2 {
+    font-size: 20px;
+    margin: 12px 0;
+  }
+  .datenschutz p {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+  }
+  .datenschutz a {
+    color: #333;
+  }
+  .agb {
+    padding: 32px 15%;
+    letter-spacing: 1px;
+  }
+  .agb h1 {
+    font-size: 32px;
+  }
+  .agb h2 {
+    font-size: 20px;
+    margin: 12px 0;
+  }
+  .agb p {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+  }
+  .agb a {
+    color: #333;
+  }
 }
 @media screen and (max-width: 480px) {
   header {
@@ -1625,5 +1679,59 @@ a {
   }
   .services-footer {
     margin-top: 0;
+  }
+  .impressum {
+    padding: 32px 10%;
+    letter-spacing: 1px;
+  }
+  .impressum h1 {
+    font-size: 32px;
+  }
+  .impressum h2 {
+    font-size: 20px;
+    margin: 12px 0;
+  }
+  .impressum p {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+  }
+  .datenschutz {
+    padding: 32px 10%;
+    letter-spacing: 1px;
+  }
+  .datenschutz h1 {
+    font-size: 32px;
+  }
+  .datenschutz h2 {
+    font-size: 20px;
+    margin: 12px 0;
+  }
+  .datenschutz p {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+  }
+  .datenschutz a {
+    color: #333;
+  }
+  .agb {
+    padding: 32px 10%;
+    letter-spacing: 1px;
+  }
+  .agb h1 {
+    font-size: 24px;
+  }
+  .agb h2 {
+    font-size: 16px;
+    margin: 12px 0;
+  }
+  .agb p {
+    font-size: 12px;
+    line-height: 20px;
+    text-align: justify;
+  }
+  .agb a {
+    color: #333;
   }
 }/*# sourceMappingURL=style.css.map */
